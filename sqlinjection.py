@@ -1,7 +1,7 @@
 import json  
 import requests  
   
-def sql_injection_advance_5():  
+def attack():  
      alphabet_index = 0  
      alphabet = 'abcdefghijklmnopqrstuvwxyz'  
      password_index = 0  
@@ -39,4 +39,4 @@ def sql_injection_advance_5():
              alphabet_index = 0  
              password_index += 1  
   
-sql_injection_advance_5()
+attack()
